@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us - Department of Data Technology and Analytics</title>
+
+    <style>
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #101820;
+            color: white;
+        }
+
+        header {
+            background: linear-gradient(135deg, #111827, #374151);
+            text-align: center;
+            padding: 45px 20px;
+        }
+
+        header h1 {
+            font-size: 36px;
+        }
+
+        header p {
+            color: #cbd5e1;
+        }
+
+        nav {
+            background-color: #050a10;
+            padding: 18px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #e5e7eb;
+            text-decoration: none;
+            margin: 0 18px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        .container {
+            width: 85%;
+            margin: 40px auto;
+        }
+
+        .contact-image {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            border-radius: 15px;
+            opacity: 0.9;
+        }
+
+        .contact-box {
+            background-color: #1f2937;
+            padding: 35px;
+            margin-top: 30px;
+            border-radius: 15px;
+            border-left: 6px solid #38bdf8;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+        }
+
+        h2 {
+            color: #38bdf8;
+        }
+
+        p {
+            font-size: 17px;
+            line-height: 1.8;
+        }
+
+        .details {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 25px;
+        }
+
+        .detail-card {
+            flex: 1;
+            min-width: 220px;
+            background-color: #111827;
+            padding: 25px;
+            border-radius: 10px;
+            border: 1px solid #374151;
+        }
+
+        .detail-card h3 {
+            color: #38bdf8;
+        }
+
+        form {
+            margin-top: 25px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 14px;
+            margin: 8px 0 18px;
+            border: none;
+            border-radius: 6px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            height: 120px;
+        }
+
+        button {
+            background-color: #0284c7;
+            color: white;
+            border: none;
+            padding: 14px 25px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #38bdf8;
+        }
+
+        footer {
+            margin-top: 50px;
+            background-color: #050a10;
+            text-align: center;
+            padding: 20px;
+            color: #cbd5e1;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>Department of Data Technology and Analytics</h1>
+
+    <p>We would be happy to hear from you</p>
+
+</header>
+
+<nav>
+
+    <a href="index.html">Home</a>
+
+    <a href="courses.html">Courses</a>
+
+    <a href="about.html">About Us</a>
+
+    <a href="contact.html">Contact Us</a>
+
+</nav>
+
+<div class="container">
+
+    <img src="OIP.jpg"
+         alt="Technology and communication"
+         class="contact-image">
+
+    <div class="contact-box">
+
+        <h2>Contact Our Department</h2>
+
+        <p>
+            If you would like to learn more about the Department of
+            Data Technology and Analytics, you can contact us through
+            the communication channels provided below. Our department
+            welcomes enquiries from students, prospective students
+            and other interested individuals.
+        </p>
+
+        <p>
+            For information about courses, admission, academic
+            programmes or other departmental matters, please use
+            the appropriate contact information. We aim to provide
+            clear and helpful information to everyone who contacts
+            the department.
+        </p>
+
+        <p>
+            Students can also contact the department when they require
+            academic guidance or information about their programmes.
+            Communication plays an important role in ensuring that
+            students receive the support they need during their studies.
+        </p>
+
+        <p>
+            You can also use the form below to send a message.
+            Please provide accurate information so that the department
+            can respond appropriately.
+        </p>
+
+        <div class="details">
+
+            <div class="detail-card">
+
+                <h3>Email</h3>
+
+                <p>
+                    dataanalytics@university.ac.ke
+                </p>
+
+            </div>
+
+            <div class="detail-card">
+
+                <h3>Phone</h3>
+
+                <p>
+                    +254 700 000 000
+                </p>
+
+            </div>
+
+            <div class="detail-card">
+
+                <h3>Location</h3>
+
+                <p>
+                    Nairobi, Kenya
+                </p>
+
+            </div>
+
+        </div>
+
+        <h2>Send Us a Message</h2>
+
+        <form>
+
+            <label for="name">Full Name</label>
+
+            <input type="text"
+                   id="name"
+                   name="name"
+                   placeholder="Enter your full name">
+
+            <label for="email">Email Address</label>
+
+            <input type="email"
+                   id="email"
+                   name="email"
+                   placeholder="Enter your email address">
+
+            <label for="message">Message</label>
+
+            <textarea id="message"
+                      name="message"
+                      placeholder="Write your message here"></textarea>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+
+    </div>
+
+</div>
+
+<footer>
+
+    <p>&copy; 2026 Department of Data Technology and Analytics</p>
+
+</footer>
+
+</body>
+
+</html>
